@@ -22,8 +22,8 @@ class BareError extends Error {
 exports.BareError = BareError;
 exports.pkg = JSON.parse((0, node_fs_1.readFileSync)((0, node_path_1.join)(__dirname, '..', 'package.json'), 'utf-8'));
 const project = {
-    name: 'bare-server-node',
-    description: 'TOMPHTTP NodeJS Bare Server',
+    name: 'b-s-n',
+    description: 'bareserv',
     repository: 'https://github.com/tomphttp/bare-server-node',
     version: exports.pkg.version,
 };
